@@ -1,0 +1,62 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "snover-1",
+            "pokemon": "snover",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "10-39",
+            "weight": 9.0,
+            "condition": {
+                
+                "biomes": [
+                    "#cobblemon:is_snowy"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_tundra"
+                ]
+            }
+        },
+        {
+            "id": "snover-2",
+            "pokemon": "snover",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "10-39",
+            "weight": 50,
+ "condition": {
+                
+                "biomes": [
+                    "#cobblemon:is_mountain",
+                    "#cobblemon:is_peak"
+                ],
+                "isThundering": true,
+        "minY": 100,
+                 "neededNearbyBlocks": [
+		 "minecraft:spruce_log",
+		 "minecraft:spruce_leaves"
+],
+                 "neededBaseBlocks": [
+		 "minecraft:snow_block",
+		 "minecraft:ice"
+]
+            },
+"anticondition": {
+     "biomes": [
+                 "terralith:volcanic_peaks"
+]
+}
+        }
+
+    ]
+}

@@ -1,0 +1,115 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "rotom-1",
+            "pokemon": "rotom",
+            "presets": [
+                "mansion"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "12-35",
+            "weight": 10,
+            "condition": {
+                
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ]
+            }
+        },
+        {
+            "id": "rotom-2",
+            "pokemon": "rotomwash",
+            "presets": [
+                "mansion"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "12-35",
+            "weight": 2,
+            "condition": {
+                
+                "biomes": [
+                    "minecraft:dark_forest"
+                ]
+            }
+        },
+ {
+            "id": "rotom-3",
+            "pokemon": "rotomheat",
+            "presets": [
+                "mansion"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "12-35",
+            "weight": 2,
+            "condition": {
+                
+                "biomes": [
+                    "minecraft:dark_forest"
+                ]
+            }
+        },
+ {
+            "id": "rotom-4",
+            "pokemon": "rotommow",
+            "presets": [
+                "mansion"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "12-35",
+            "weight": 2,
+            "condition": {
+                
+                "biomes": [
+                    "minecraft:dark_forest"
+                ]
+            }
+        },
+ {
+            "id": "rotom-5",
+            "pokemon": "rotomfrost",
+            "presets": [
+                "mansion"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "12-35",
+            "weight": 2,
+            "condition": {
+                
+                "biomes": [
+                    "minecraft:dark_forest"
+                ]
+            }
+        },
+ {
+            "id": "rotom-6",
+            "pokemon": "rotomfan",
+            "presets": [
+                "mansion"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "12-35",
+            "weight": 2,
+            "condition": {
+                
+                "biomes": [
+                    "minecraft:dark_forest"
+                ]
+            }
+        }
+    ]
+}

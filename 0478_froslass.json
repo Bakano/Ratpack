@@ -1,0 +1,54 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "froslass-1",
+            "pokemon": "froslass",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "42-48",
+            "weight": 9.0,
+            "condition": {
+                
+                "biomes": [
+                    "#cobblemon:is_glacial"
+                ],
+                "isRaining": true
+            }
+        },
+        {
+            "id": "froslass-2",
+            "pokemon": "froslass",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "30-50",
+            "weight": 8,
+ "condition": {
+                
+                "biomes": [
+                    "#cobblemon:is_mountain",
+                    "#cobblemon:is_peak"
+                ],
+                "isThundering": true,
+        "minY": 75,
+                 "neededNearbyBlocks": [
+		 "minecraft:snow_block",
+		 "minecraft:ice",
+		 "minecraft:skeleton_skull"
+]
+            },
+"anticondition": {
+     "biomes": [
+                 "terralith:volcanic_peaks"
+]
+}
+        }
+    ]
+}

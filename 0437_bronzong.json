@@ -1,0 +1,55 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "bronzong-1",
+            "pokemon": "bronzong",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "33-50",
+            "weight": 2.0,
+            "condition": {
+                
+                "biomes": [
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_peak"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_abyss",
+                    "#cobblemon:is_abyss"
+                ]
+            }
+        },
+        {
+            "id": "bronzong-2",
+            "pokemon": "bronzong",
+            "presets": [
+                "desert_temple"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "40-55",
+            "weight": 5.4,
+            "condition": {
+                
+                "biomes": [
+                    "#cobblemon:is_sandy"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_abyss"
+                ]
+            }
+        }
+    ]
+}

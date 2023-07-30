@@ -1,0 +1,55 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "bronzor-1",
+            "pokemon": "bronzor",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "12-32",
+            "weight": 5.0,
+            "condition": {
+                
+                "biomes": [
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_peak"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_abyss",
+                    "#cobblemon:is_abyss"
+                ]
+            }
+        },
+        {
+            "id": "bronzor-1",
+            "pokemon": "bronzor",
+            "presets": [
+                "desert_temple"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "12-30",
+            "weight": 5.4,
+            "condition": {
+                
+                "biomes": [
+                    "#cobblemon:is_sandy"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_abyss"
+                ]
+            }
+        }
+    ]
+}

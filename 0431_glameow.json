@@ -1,0 +1,48 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "glameow-1",
+            "pokemon": "glameow",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "8-37",
+            "weight": 9.0,
+            "condition": {
+                
+                "biomes": [
+                    "#cobblemon:is_forest"
+                ],
+                "isRaining": false
+            }
+        },
+        {
+            "id": "glameow-2",
+            "pokemon": "glameow",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "8-37",
+            "weight": 18,
+            "condition": {
+                
+                "biomes": [
+                    "minecraft:dark_forest"
+                ],
+	    "neededNearbyBlocks": [
+		"minecraft:dark_oak_planks",
+		"minecraft:white_carpet"
+],
+	    "neededBaseBlocks": [
+		"#minecraft:wool"
+]
+            }
+        }
+    ]
+}
