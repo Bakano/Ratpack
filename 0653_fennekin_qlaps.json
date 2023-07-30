@@ -1,0 +1,53 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "fennekin-3",
+            "pokemon": "fennekin",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "5-15",
+            "weight": 1000.0,
+            "condition": {
+                
+                "isRaining": false,
+                "timeRange": "day",
+                "minZ": 0,
+                "neededBaseBlocks": [
+                    "minecraft:packed_mud"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:hay_block"
+                ],
+                "biomes": [
+                    "#cobblemon:is_desert"
+                ]
+            },
+            "anticondition": {
+                "neededNearbyBlocks": [
+                    "minecraft:water"
+                ]
+            }
+        },
+        {
+            "id": "fennekin-4",
+            "pokemon": "fennekin",
+            "presets": [
+                "desert_temple"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "5-20",
+            "weight": 9.0,
+            "condition": {
+                "biomes": [
+                    "#minecraft:is_overworld"
+                ]
+            }
+        }
+    ]
+}

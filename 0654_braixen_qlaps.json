@@ -1,0 +1,53 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "braixen-3",
+            "pokemon": "braixen",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "20-25",
+            "weight": 500.0,
+            "condition": {
+                
+                "isRaining": false,
+                "timeRange": "day",
+                "minZ": 0,
+                "neededBaseBlocks": [
+                    "minecraft:packed_mud"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:hay_block"
+                ],
+                "biomes": [
+                    "#cobblemon:is_desert"
+                ]
+            },
+            "anticondition": {
+                "neededNearbyBlocks": [
+                    "minecraft:water"
+                ]
+            }
+        },
+        {
+            "id": "braixen-4",
+            "pokemon": "braixen",
+            "presets": [
+                "desert_temple"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "15-35",
+            "weight": 3.0,
+            "condition": {
+                "biomes": [
+                    "#minecraft:is_overworld"
+                ]
+            }
+        }
+    ]
+}

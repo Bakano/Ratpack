@@ -1,0 +1,66 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "beheeyem-1",
+            "pokemon": "beheeyem",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "42-48",
+            "weight": 1.0,
+            "condition": {
+                "biomes": [
+                    "#minecraft:is_end"
+                ]
+            }
+        },
+        {
+            "id": "beheeyem-2",
+            "pokemon": "beheeyem",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "42-48",
+            "weight": 500,
+            "condition": {
+                
+                "biomes": [
+                    "#minecraft:is_overworld"
+                ],
+                "timeRange": "night",
+                "neededNearbyBlocks": [
+                    "minecraft:wheat"
+                ],
+                "neededBaseBlocks": [
+                    "minecraft:farmland"
+                ]
+            }
+        },
+        {
+            "id": "beheeyem_3",
+            "pokemon": "beheeyem",
+            "presets": [
+                "desert_temple"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "42-48",
+            "weight": 1.0,
+            "condition": {
+                "biomes": [
+                    "#minecraft:is_overworld"
+                ]
+            }
+        }
+    ]
+}
