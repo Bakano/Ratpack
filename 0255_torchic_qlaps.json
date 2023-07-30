@@ -1,0 +1,26 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "torchic-1",
+            "pokemon": "torchic",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "5-27",
+            "weight": 5.0,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_savanna",
+					"#minecraft:is_nether"
+                ],
+                "isRaining": false
+            }
+        }
+    ]
+}
