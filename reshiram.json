@@ -1,0 +1,19 @@
+{
+  "enabled": true,
+  "spawns": [
+    {
+      "id": "reshiram-1",
+      "pokemon": "reshiram",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "70",
+      "weight": 1.5,
+      "condition": {
+        "biomes": [ 
+          "#cobblemon:is_badlands"
+        ]
+      }
+    }
+  ]
+}

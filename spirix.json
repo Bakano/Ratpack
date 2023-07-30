@@ -1,0 +1,43 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "spirix-1",
+            "pokemon": "spirix",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "15-39",
+            "weight": 1,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+  "timeRange": "night",
+				"neededNearbyBlocks": [
+                    "supplementaries:crimson_lantern"
+                ]
+            }
+        },
+ {
+            "id": "spirix-alolan-2",
+            "pokemon": "spirix alolan",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "15-39",
+            "weight": 1,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+  "timeRange": "night",
+				"neededNearbyBlocks": [
+                    "supplementaries:crimson_lantern"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "skeledirge-1",
+            "pokemon": "skeledirge",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "36-55",
+            "weight": 0.2,
+            "condition": {
+                
+                "biomes": [
+                    "#cobblemon:is_savanna"
+                ],
+                "isRaining": false
+            },
+            "anticondition": {
+                "neededNearbyBlocks": [
+                    "minecraft:water"
+                ]
+            }
+        }
+    ]
+}

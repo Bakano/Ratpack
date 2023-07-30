@@ -1,0 +1,26 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "zeraora-1",
+      "pokemon": "zeraora",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "55-60",
+      "weight": 8,
+      "condition": {
+        
+        "biomes": [
+          "#cobblemon:is_floral",
+          "#cobblemon:is_jungle",
+          "#cobblemon:is_taiga"
+        ],
+        "timeRange": "day",
+        "isRaining": false
+      }
+    }
+  ]
+}

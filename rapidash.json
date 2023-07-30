@@ -1,0 +1,44 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "rapidash-galar-1",
+      "pokemon": "rapidash galarian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "20-41",
+      "weight": 0.5,
+      "condition": {
+        
+        "biomes": [
+          "#cobblemon:is_grassland"
+        ],
+        "timeRange": "night"
+      }
+    },
+    {
+      "id": "rapidash-galar-2",
+      "pokemon": "rapidash galarian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "20-41",
+      "weight": 1,
+      "condition": {
+        
+        "biomes": [
+          "#cobblemon:is_magical"
+        ]
+      }
+    }
+  ]
+}

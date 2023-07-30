@@ -1,0 +1,25 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "xerneas-1",
+      "pokemon": "xerneas",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "70",
+      "weight": 9,
+      "condition": {
+        
+        "biomes": [
+	  "#cobblemon:is_hills"
+        ],
+        "neededNearbyBlocks": [
+          "minecraft:dirt"
+        ]
+      }
+    }
+  ]
+}

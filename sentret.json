@@ -1,0 +1,29 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "sentret-1",
+            "pokemon": "sentret",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "5-17",
+            "weight": 5,
+            "condition": {
+                
+                "biomes": [
+                    "#cobblemon:is_floral",
+                    "#cobblemon:is_forest",
+                    "#cobblemon:is_hills",
+                    "#cobblemon:is_plains"
+                ],
+                "timeRange": "day"
+            }
+        }
+    ]
+}
