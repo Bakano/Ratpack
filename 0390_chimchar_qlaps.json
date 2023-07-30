@@ -1,0 +1,37 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "chimchar-3",
+            "pokemon": "chimchar",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "5-15",
+            "weight": 1000.0,
+            "condition": {
+                
+                "timeRange": "day",
+                "minX": 0,
+                "minY": 80,
+                "neededBaseBlocks": [
+                    "minecraft:stone"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:moss_block",
+                    "minecraft:hay_block"
+                ],
+                "biomes": [
+                    "#cobblemon:is_mountain"
+                ]
+            },
+            "anticondition": {
+                "neededNearbyBlocks": [
+                    "minecraft:water"
+                ]
+            }
+        }
+    ]
+}
