@@ -1,0 +1,25 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "hitmonchan-1",
+            "pokemon": "hitmonchan",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "20-40",
+            "weight": 3,
+            "condition": {
+                
+                "biomes": [
+                    "#cobblemon:is_temperate"
+                ]
+            }
+        }
+    ]
+}

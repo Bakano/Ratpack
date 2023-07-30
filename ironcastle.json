@@ -1,0 +1,24 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "ironcastle_1",
+            "pokemon": "ironcastle",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "60-65",
+            "weight": 15,
+            "condition": {
+                "biomes": [
+                    "#minecraft:is_end"
+                ]
+            }
+        }
+    ]
+}

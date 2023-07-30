@@ -1,0 +1,25 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+		{
+            "id": "egolurk-1",
+            "pokemon": "egolurk",
+            "presets": [
+                "underground"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "15-40",
+            "weight":50,
+            "condition": {
+                
+                "biomes": [
+                    "#cobblemon:is_abyss"
+                ]
+            }
+        }       
+    ]
+}

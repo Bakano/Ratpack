@@ -1,0 +1,28 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "lampent-1",
+            "pokemon": "lampent",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "41-55",
+            "weight": 5.4,
+            "condition": {
+                
+                "isRaining": false,
+                "biomes": [
+                    "#cobblemon:is_spooky",
+                    "#cobblemon:is_temperate"
+                ],
+                "timeRange": "night"
+            }
+        }
+    ]
+}

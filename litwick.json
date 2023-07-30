@@ -1,0 +1,28 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "litwick-1",
+            "pokemon": "litwick",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "5-35",
+            "weight": 5.4,
+            "condition": {
+                
+                "isRaining": false,
+                "biomes": [
+                    "#cobblemon:is_spooky",
+                    "#cobblemon:is_temperate"
+                ],
+                "timeRange": "night"
+            }
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+		{
+            "id": "eemolga-1",
+            "pokemon": "eemolga",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "15-40",
+            "weight":20,
+            "condition": {
+                
+                "biomes": [
+                    "#cobblemon:is_spooky"
+                ]
+            }
+        },
+        {
+            "id": "eemolga-2",
+            "pokemon": "eemolga",
+            "presets": [
+                "underground"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "15-40",
+            "weight":1.0,
+            "condition": {
+                
+                "biomes": [
+                    "#cobblemon:is_forest",
+					"#cobblemon:is_spooky",
+					"#cobblemon:is_grassland"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "drifblimred-1",
+            "pokemon": "drifblimred",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "25-39",
+            "weight": 10,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+  "timeRange": "night",
+				"neededNearbyBlocks": [
+                    "supplementaries:crimson_lantern"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "lunala-1",
+      "pokemon": "lunala",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "70",
+      "weight": 0.2,
+      "condition": {
+        
+        "biomes": [
+          "#cobblemon:is_spooky",
+          "#minecraft:is_end"
+        ],
+        "timeRange": "night"
+      }
+    }
+  ]
+}

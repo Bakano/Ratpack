@@ -1,0 +1,25 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "koraidon-1",
+      "pokemon": "koraidon",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "50-70",
+      "weight": 7,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_beach",
+          "#cobblemon:is_coast"
+        ],
+        "neededBaseBlocks": [
+          "minecraft:sand"
+        ]
+      }
+    }
+  ]
+}

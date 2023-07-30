@@ -1,0 +1,25 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "lugia-1",
+      "pokemon": "lugia",
+      "type": "pokemon",
+      "context": "submerged",
+      "presets": [
+        "underwater"
+      ],
+      "bucket": "ultra-rare",
+      "level": "50-70",
+      "weight": 8,
+      "condition": {
+        "biomes": [ 
+          "#cobblemon:is_ocean"
+         ],
+         "isRaining": true
+      }
+    }
+  ]
+}

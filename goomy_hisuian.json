@@ -1,0 +1,46 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "goomy-hisui-1",
+            "pokemon": "goomy hisuian",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "5-36",
+            "weight": 3,
+            "condition": {
+                
+                "biomes": [
+                   "#cobblemon:is_swamp"
+                ],
+                "isRaining": true }
+              
+            },
+            
+{
+			"id": "goomy-hisui-2",
+            "pokemon": "goomy hisuian",
+			"presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "1-20",
+            "weight": 3,
+            "condition": {
+                
+                "biomes": [
+                    "#cobblemon:is_lush"
+                ]
+            }
+        }
+    ]
+}
+      

@@ -1,0 +1,25 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "latios-1",
+      "pokemon": "latios",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "50-70",
+      "weight": 9,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_plains"
+        ],
+        "isRaining": false,
+        "neededBaseBlocks": [
+          "minecraft:grass_block"
+        ]
+      }
+    }
+  ]
+}

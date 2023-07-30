@@ -1,0 +1,25 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "drifloonred-1",
+            "pokemon": "drifloonred",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "15-20",
+            "weight": 40,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+  "timeRange": "night",
+				"neededNearbyBlocks": [
+                    "supplementaries:crimson_lantern"
+                ]
+            }
+        }
+    ]
+}
