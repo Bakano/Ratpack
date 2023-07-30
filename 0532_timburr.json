@@ -1,0 +1,28 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "timburr-1",
+            "pokemon": "timburr",
+            "presets": [
+				"urban"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "12-30",
+            "weight": 5.4,
+            "condition": {
+                
+                "biomes": [
+                    "#cobblemon:is_highlands",
+                    "#cobblemon:is_hills",
+                    "#cobblemon:is_mountain",
+                    "#cobblemon:is_plains"
+                ]
+            }
+        }
+    ]
+}
