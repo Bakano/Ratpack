@@ -1,0 +1,23 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "bulbasaur-2",
+            "pokemon": "bulbasaur",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "5-15",
+            "weight": 10.0,
+            "condition": {
+                
+                "timeRange": "day",
+                "biomes": [
+                    "#cobblemon:is_jungle"
+                ]
+            }
+        }
+    ]
+}

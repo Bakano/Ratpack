@@ -1,0 +1,25 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "squirtle-3",
+            "pokemon": "squirtle",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "5-15",
+            "weight": 50.0,
+            "condition": {
+                "timeRange": "day",
+                "neededNearbyBlocks": [
+                    "minecraft:water"
+                ],
+                "biomes": [
+                    "#cobblemon:is_river"
+                ]
+            }
+        }
+    ]
+}
