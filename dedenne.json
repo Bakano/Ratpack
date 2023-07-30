@@ -1,0 +1,82 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "dedenne-1",
+      "pokemon": "dedenne",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "15-30",
+      "weight": 3,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_magical"
+        ],
+        "minLight": 10
+      }
+    },
+    {
+      "id": "dedenne-2",
+      "pokemon": "dedenne",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "5-25",
+      "weight": 30,
+      "condition": {
+        
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "neededNearbyBlocks": [
+          "minecraft:lightning_rod"
+        ],
+        "isThundering": true
+      }
+    },
+    {
+      "id": "dedenne-3",
+      "pokemon": "dedenne",
+      "presets": [
+        "urban"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "10-40",
+      "weight": 0.5,
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_taiga"
+        ]
+      }
+    },
+    {
+      "id": "dedenne-4",
+      "pokemon": "dedenne",
+      "presets": [
+        "urban"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "10-40",
+      "weight": 10,
+      "condition": {
+        
+        "biomes": [
+          "#cobblemon:is_taiga"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "blitzle-1",
+            "pokemon": "blitzle",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "5-12",
+            "weight": 2,
+            "condition": {
+                
+                "maxY": 120,
+                "biomes": [
+                    "#cobblemon:is_arid"
+                ]
+            }
+        },
+		{
+            "id": "blitzle-2",
+            "pokemon": "blitzle",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "5-12",
+            "weight": 5,
+            "condition": {
+                
+                "maxY": 120,
+				"isThundering": true,
+                "biomes": [
+                    "#cobblemon:is_arid"
+                ]
+            }
+        }
+    ]
+}
