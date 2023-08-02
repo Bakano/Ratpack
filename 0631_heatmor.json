@@ -49,7 +49,7 @@
             "context": "grounded",
             "bucket": "common",
             "level": "20-48",
-            "weight": 33.0,
+            "weight": 10.0,
             "condition": {
                 
                 "minY": 63,
