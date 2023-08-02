@@ -10,7 +10,7 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "70",
-      "weight": 8,
+      "weight": 18,
       "condition": {
         "biomes": [ 
           "#cobblemon:is_peak"
