@@ -10,7 +10,7 @@
       "context": "submerged",
       "bucket": "ultra-rare",
       "level": "70",
-      "weight": 9,
+      "weight": 15,
       "condition": {
         "biomes": [ 
           "#cobblemon:is_lukewarm"
@@ -24,7 +24,7 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "70",
-      "weight": 9,
+      "weight": 15,
       "condition": {
         "biomes": [ 
           "#minecraft:is_beach"
