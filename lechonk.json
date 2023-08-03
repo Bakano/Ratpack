@@ -4,20 +4,17 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "perrserker",
-            "pokemon": "perrserker",
-            "presets": [
-                "natural"
-            ],
+            "id": "lechonk-1",
+            "pokemon": "lechonk",
             "type": "pokemon",
             "context": "grounded",
-            "bucket": "ultra-rare",
-            "level": "28-50",
-            "weight": 10.0,
+            "bucket": "common",
+            "level": "10-33",
+            "weight": 1.4,
             "condition": {
                 
                 "biomes": [
-                    "#cobblemon:is_tundra"
+                    "#cobblemon:is_forest"
                 ]
             }
         }
